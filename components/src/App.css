@@ -1,0 +1,18 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.map-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-image: url('../ukraine_map_image.png'); /* Зображення карти України */
+  background-size: cover;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}

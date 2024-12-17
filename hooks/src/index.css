@@ -1,0 +1,52 @@
+/* Основні стилі для кнопок */
+button {
+  background-color: #4CAF50; /* зелений фон */
+  color: white; /* білий текст */
+  border: none; /* без обводки */
+  padding: 15px 32px; /* відступи зліва та справа, зверху та знизу */
+  text-align: center; /* вирівнювання тексту по центру */
+  text-decoration: none; /* без підкреслення тексту */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px; /* відступи між кнопками */
+  cursor: pointer; /* курсор у вигляді руки */
+  border-radius: 4px; /* заокруглені кути */
+  transition: background-color 0.3s ease; /* анімація при зміні фону */
+}
+
+/* Стиль кнопки при наведенні */
+button:hover {
+  background-color: #45a049; /* темніший зелений фон */
+}
+
+/* Стиль кнопки при натисканні */
+button:active {
+  background-color: #3e8e41; /* ще темніший зелений */
+}
+
+/* Стиль кнопки для "Go to New Page" */
+.new-page-btn {
+  background-color: #4CAF50;
+}
+
+.new-page-btn:hover {
+  background-color: #45a049;
+}
+
+/* Стиль кнопки для "Go to Home" */
+.home-btn {
+  background-color: #ff6347;
+}
+
+.home-btn:hover {
+  background-color: #d9534f;
+}
+
+/* Стиль кнопки для "Go to About" */
+.about-btn {
+  background-color: #ffc107;
+}
+
+.about-btn:hover {
+  background-color: #e0a800;
+}
